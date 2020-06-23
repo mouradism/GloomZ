@@ -17,4 +17,9 @@
       <UniqueIdentifier>{fba647db-ef23-4102-a46a-098acb647c3e}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Application.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>
