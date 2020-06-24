@@ -11,7 +11,7 @@ namespace GloomZ {
 	}
 
 	void Application::Run() {
-		printf("  ----> GLOOMZ ENGINE \n\n");
+		printf("  ----> GLOOMZ ENGINE  \n\n");
 		bool x = true;
 		while (x) {
 			for (int i = 1; i < 10; i++) {
