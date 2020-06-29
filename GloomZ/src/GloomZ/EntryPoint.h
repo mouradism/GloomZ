@@ -1,6 +1,6 @@
 #pragma once
 
-#ifdef GZ_PLATFORM_WINDOWS
+#ifdef GL_PLATFORM_WINDOWS
 
 extern GloomZ::Application* GloomZ::CreateApplication();
 

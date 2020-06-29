@@ -1,7 +1,7 @@
 #pragma once
 
-#ifdef GZ_PLATFORM_WINDOWS
-	#ifdef GZ_BUILD_DLL
+#ifdef GL_PLATFORM_WINDOWS
+	#ifdef GL_BUILD_DLL
 		#define GLOOMZ_API __declspec(dllexport)
 	#else
 		#define GLOOMZ_API __declspec(dllimport)
