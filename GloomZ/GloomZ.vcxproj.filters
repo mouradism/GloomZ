@@ -30,9 +30,15 @@
     <ClInclude Include="src\GloomZ\EntryPoint.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="src\GloomZ\Log.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\GloomZ\Application.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GloomZ\Log.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

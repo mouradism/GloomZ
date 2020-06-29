@@ -11,12 +11,14 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\GloomZ\Log.h" />
     <ClInclude Include="src\GloomZ\EntryPoint.h" />
     <ClInclude Include="src\GloomZ.h" />
     <ClInclude Include="src\GloomZ\Application.h" />
     <ClInclude Include="src\GloomZ\Core.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\GloomZ\Log.cpp" />
     <ClCompile Include="src\GloomZ\Application.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
@@ -68,6 +70,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>GZ_PLATFORM_WINDOWS;GZ_BUILD_DLL;_WINDLL;%(PreprocessorDefinitions);_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)GloomZ\vendor\spdlog\include;</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -82,6 +85,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>GZ_PLATFORM_WINDOWS;GZ_BUILD_DLL;_WINDLL;%(PreprocessorDefinitions);NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)GloomZ\vendor\spdlog\include;</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>

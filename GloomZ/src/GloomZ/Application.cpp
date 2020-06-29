@@ -12,13 +12,13 @@ namespace GloomZ {
 
 	void Application::Run() {
 		printf("  ----> GLOOMZ ENGINE  \n\n");
-		bool x = true;
+		/*bool x = true;
 		while (x) {
-			for (int i = 1; i < 10; i++) {
+			for (int i = 1; i < 100; i++) {
 				printf("---------********gloommmmmz is running*******------ \n");
 			}
 				
 			x = false;
-		};
+		};*/
 	}
 }
