@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_gloom_z_8h" kind="file">
+    <compoundname>GloomZ.h</compoundname>
+    <includes refid="_application_8h" local="yes">GloomZ/Application.h</includes>
+    <includes refid="_log_8h" local="yes">GloomZ/Log.h</includes>
+    <includes refid="_entry_point_8h" local="yes">GloomZ/EntryPoint.h</includes>
+    <includedby refid="_sandbox_app_8cpp" local="no">C:/Users/mourad/source/repos/GloomZ/Sandbox/src/SandboxApp.cpp</includedby>
+    <incdepgraph>
+      <node id="7">
+        <label>GloomZ/EntryPoint.h</label>
+        <link refid="_entry_point_8h"/>
+      </node>
+      <node id="6">
+        <label>C:/Users/mourad/source/repos/GloomZ/GloomZ/vendor/spdlog/include/spdlog/sinks/stdout_color_sinks.h</label>
+      </node>
+      <node id="2">
+        <label>Core.h</label>
+        <link refid="_core_8h"/>
+      </node>
+      <node id="0">
+        <label>C:/Users/mourad/source/repos/GloomZ/GloomZ/src/GloomZ.h</label>
+        <link refid="GloomZ.h"/>
+        <childnode refid="1" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>GloomZ/Log.h</label>
+        <link refid="_log_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>C:/Users/mourad/source/repos/GloomZ/GloomZ/vendor/spdlog/include/spdlog/spdlog.h</label>
+      </node>
+      <node id="1">
+        <label>GloomZ/Application.h</label>
+        <link refid="_application_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>memory</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="8">
+        <label>C:/Users/mourad/source/repos/GloomZ/GloomZ/src/GloomZ.h</label>
+        <link refid="GloomZ.h"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>C:/Users/mourad/source/repos/GloomZ/Sandbox/src/SandboxApp.cpp</label>
+        <link refid="_sandbox_app_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//to<sp/>be<sp/>used<sp/>by<sp/>gloomz<sp/>apps</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_application_8h" kindref="compound">GloomZ/Application.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_log_8h" kindref="compound">GloomZ/Log.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">//--------------the<sp/>entry<sp/>point<sp/>-------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_entry_point_8h" kindref="compound">GloomZ/EntryPoint.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="comment">//-------------------------------------------</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/mourad/source/repos/GloomZ/GloomZ/src/GloomZ.h"/>
+  </compounddef>
+</doxygen>

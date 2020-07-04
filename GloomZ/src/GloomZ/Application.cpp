@@ -1,5 +1,8 @@
 #include "Application.h"
 #include <cstdio>
+#include "Log.h"
+
+
 
 namespace GloomZ {
 	Application::~Application() {
@@ -11,14 +14,8 @@ namespace GloomZ {
 	}
 
 	void Application::Run() {
-		printf("  ----> GLOOMZ ENGINE  \n\n");
-		/*bool x = true;
-		while (x) {
-			for (int i = 1; i < 100; i++) {
-				printf("---------********gloommmmmz is running*******------ \n");
-			}
-				
-			x = false;
-		};*/
+		GL_CLNT_INFO("--------------> GLOOMZ ENGINE START <--------------  : ");
+		
+
 	}
 }

@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_393a124af2ba79205563e32bac699da5" kind="dir">
+    <compoundname>C:/Users/mourad/source/repos/GloomZ/GloomZ/src/GloomZ</compoundname>
+    <innerfile refid="_application_8cpp">Application.cpp</innerfile>
+    <innerfile refid="_application_8h">Application.h</innerfile>
+    <innerfile refid="_core_8h">Core.h</innerfile>
+    <innerfile refid="_entry_point_8h">EntryPoint.h</innerfile>
+    <innerfile refid="_log_8cpp">Log.cpp</innerfile>
+    <innerfile refid="_log_8h">Log.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/mourad/source/repos/GloomZ/GloomZ/src/GloomZ/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_sandbox_app_8cpp" kind="file">
+    <compoundname>SandboxApp.cpp</compoundname>
+    <includes refid="_gloom_z_8h" local="no">GloomZ.h</includes>
+    <incdepgraph>
+      <node id="187">
+        <label>GloomZ/EntryPoint.h</label>
+        <link refid="_entry_point_8h"/>
+      </node>
+      <node id="186">
+        <label>C:/Users/mourad/source/repos/GloomZ/GloomZ/vendor/spdlog/include/spdlog/sinks/stdout_color_sinks.h</label>
+      </node>
+      <node id="182">
+        <label>Core.h</label>
+        <link refid="_core_8h"/>
+      </node>
+      <node id="180">
+        <label>GloomZ.h</label>
+        <link refid="_gloom_z_8h"/>
+        <childnode refid="181" relation="include">
+        </childnode>
+        <childnode refid="183" relation="include">
+        </childnode>
+        <childnode refid="187" relation="include">
+        </childnode>
+      </node>
+      <node id="183">
+        <label>GloomZ/Log.h</label>
+        <link refid="_log_8h"/>
+        <childnode refid="184" relation="include">
+        </childnode>
+        <childnode refid="182" relation="include">
+        </childnode>
+        <childnode refid="185" relation="include">
+        </childnode>
+        <childnode refid="186" relation="include">
+        </childnode>
+      </node>
+      <node id="185">
+        <label>C:/Users/mourad/source/repos/GloomZ/GloomZ/vendor/spdlog/include/spdlog/spdlog.h</label>
+      </node>
+      <node id="181">
+        <label>GloomZ/Application.h</label>
+        <link refid="_application_8h"/>
+        <childnode refid="182" relation="include">
+        </childnode>
+      </node>
+      <node id="179">
+        <label>C:/Users/mourad/source/repos/GloomZ/Sandbox/src/SandboxApp.cpp</label>
+        <link refid="SandboxApp.cpp"/>
+        <childnode refid="180" relation="include">
+        </childnode>
+      </node>
+      <node id="184">
+        <label>memory</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="class_sandbox" prot="public">Sandbox</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&lt;<ref refid="_gloom_z_8h" kindref="compound">GloomZ.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3" refid="class_sandbox" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_sandbox" kindref="compound">Sandbox</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_gloom_z_1_1_application" kindref="compound">GloomZ::Application</ref><sp/>{</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="5" refid="class_sandbox_1a414860b7f66f97746dfda9564bdbf2eb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_sandbox_1a414860b7f66f97746dfda9564bdbf2eb" kindref="member">Sandbox</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9" refid="class_sandbox_1a311cd2959f627fd2058edb0d2d395ca3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_sandbox_1a311cd2959f627fd2058edb0d2d395ca3" kindref="member">~Sandbox</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="namespace_gloom_z_1acc23009b2d481b45843d2d6480f999ad" refkind="member"><highlight class="normal"><ref refid="class_gloom_z_1_1_application" kindref="compound">GloomZ::Application</ref>*<sp/><ref refid="namespace_gloom_z_1acc23009b2d481b45843d2d6480f999ad" kindref="member">GloomZ::CreateApplication</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_sandbox" kindref="compound">Sandbox</ref>();</highlight></codeline>
+<codeline lineno="17"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/mourad/source/repos/GloomZ/Sandbox/src/SandboxApp.cpp"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_92ec20b6d5c65e2ee7660d4e595002c2" kind="dir">
+    <compoundname>C:/Users/mourad/source/repos/GloomZ/GloomZ/src</compoundname>
+    <innerdir refid="dir_393a124af2ba79205563e32bac699da5">C:/Users/mourad/source/repos/GloomZ/GloomZ/src/GloomZ</innerdir>
+    <innerfile refid="_gloom_z_8h">GloomZ.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/mourad/source/repos/GloomZ/GloomZ/src/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sandbox" kind="class" prot="public">
+    <compoundname>Sandbox</compoundname>
+    <basecompoundref refid="class_gloom_z_1_1_application" prot="public" virt="non-virtual">GloomZ::Application</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_sandbox_1a414860b7f66f97746dfda9564bdbf2eb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Sandbox::Sandbox</definition>
+        <argsstring>()</argsstring>
+        <name>Sandbox</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/mourad/source/repos/GloomZ/Sandbox/src/SandboxApp.cpp" line="5" column="1" bodyfile="C:/Users/mourad/source/repos/GloomZ/Sandbox/src/SandboxApp.cpp" bodystart="5" bodyend="7"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sandbox_1a311cd2959f627fd2058edb0d2d395ca3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Sandbox::~Sandbox</definition>
+        <argsstring>()</argsstring>
+        <name>~Sandbox</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/mourad/source/repos/GloomZ/Sandbox/src/SandboxApp.cpp" line="9" column="1" bodyfile="C:/Users/mourad/source/repos/GloomZ/Sandbox/src/SandboxApp.cpp" bodystart="9" bodyend="11"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="6">
+        <label>GloomZ::Application</label>
+        <link refid="class_gloom_z_1_1_application"/>
+      </node>
+      <node id="5">
+        <label>Sandbox</label>
+        <link refid="class_sandbox"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="8">
+        <label>GloomZ::Application</label>
+        <link refid="class_gloom_z_1_1_application"/>
+      </node>
+      <node id="7">
+        <label>Sandbox</label>
+        <link refid="class_sandbox"/>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/mourad/source/repos/GloomZ/Sandbox/src/SandboxApp.cpp" line="3" column="1" bodyfile="C:/Users/mourad/source/repos/GloomZ/Sandbox/src/SandboxApp.cpp" bodystart="3" bodyend="13"/>
+    <listofallmembers>
+      <member refid="class_gloom_z_1_1_application_1a4c3df9cf725203ff00732a909a1f68ad" prot="public" virt="non-virtual"><scope>Sandbox</scope><name>Application</name></member>
+      <member refid="class_gloom_z_1_1_application_1a979ee89c397d02503b9fc7efc9712e87" prot="public" virt="non-virtual"><scope>Sandbox</scope><name>Run</name></member>
+      <member refid="class_sandbox_1a414860b7f66f97746dfda9564bdbf2eb" prot="public" virt="non-virtual"><scope>Sandbox</scope><name>Sandbox</name></member>
+      <member refid="class_gloom_z_1_1_application_1af074d573c1c16d1028fd33a1c733049a" prot="public" virt="virtual"><scope>Sandbox</scope><name>~Application</name></member>
+      <member refid="class_sandbox_1a311cd2959f627fd2058edb0d2d395ca3" prot="public" virt="non-virtual"><scope>Sandbox</scope><name>~Sandbox</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

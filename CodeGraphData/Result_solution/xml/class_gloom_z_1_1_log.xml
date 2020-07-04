@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_gloom_z_1_1_log" kind="class" prot="public">
+    <compoundname>GloomZ::Log</compoundname>
+    <includes refid="_log_8h" local="no">Log.h</includes>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_gloom_z_1_1_log_1a8214830ded6f06ec5509d5a547f93722" prot="private" static="yes" mutable="no">
+        <type>std::shared_ptr&lt; spdlog::logger &gt;</type>
+        <definition>std::shared_ptr&lt; spdlog::logger &gt; GloomZ::Log::s_CoreLogger</definition>
+        <argsstring></argsstring>
+        <name>s_CoreLogger</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/mourad/source/repos/GloomZ/GloomZ/src/GloomZ/Log.h" line="20" column="1" bodyfile="C:/Users/mourad/source/repos/GloomZ/GloomZ/src/GloomZ/Log.h" bodystart="20" bodyend="-1"/>
+        <referencedby refid="class_gloom_z_1_1_log_1ae5c1b467c43db0a3699f9c2a988efae8" compoundref="_log_8cpp" startline="9" endline="17">Init</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_gloom_z_1_1_log_1a535d995f848accd929687784dd7330c2" prot="private" static="yes" mutable="no">
+        <type>std::shared_ptr&lt; spdlog::logger &gt;</type>
+        <definition>std::shared_ptr&lt; spdlog::logger &gt; GloomZ::Log::s_ClientLogger</definition>
+        <argsstring></argsstring>
+        <name>s_ClientLogger</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/mourad/source/repos/GloomZ/GloomZ/src/GloomZ/Log.h" line="21" column="1" bodyfile="C:/Users/mourad/source/repos/GloomZ/GloomZ/src/GloomZ/Log.h" bodystart="21" bodyend="-1"/>
+        <referencedby refid="class_gloom_z_1_1_log_1ae5c1b467c43db0a3699f9c2a988efae8" compoundref="_log_8cpp" startline="9" endline="17">Init</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_gloom_z_1_1_log_1ae5c1b467c43db0a3699f9c2a988efae8" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void GloomZ::Log::Init</definition>
+        <argsstring>()</argsstring>
+        <name>Init</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/mourad/source/repos/GloomZ/GloomZ/src/GloomZ/Log.h" line="15" column="1" bodyfile="C:/Users/mourad/source/repos/GloomZ/GloomZ/src/GloomZ/Log.cpp" bodystart="9" bodyend="17"/>
+        <references refid="class_gloom_z_1_1_log_1a535d995f848accd929687784dd7330c2" compoundref="_log_8h" startline="21">s_ClientLogger</references>
+        <references refid="class_gloom_z_1_1_log_1a8214830ded6f06ec5509d5a547f93722" compoundref="_log_8h" startline="20">s_CoreLogger</references>
+        <referencedby refid="_entry_point_8h_1a3c04138a5bfe5d72780bb7e82a18e627" compoundref="_entry_point_8h" startline="7" endline="27">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_gloom_z_1_1_log_1a6fab90d6c9bc202547748ab71a859373" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::shared_ptr&lt; spdlog::logger &gt; &amp;</type>
+        <definition>static std::shared_ptr&lt;spdlog::logger&gt;&amp; GloomZ::Log::GetCoreLogger</definition>
+        <argsstring>()</argsstring>
+        <name>GetCoreLogger</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/mourad/source/repos/GloomZ/GloomZ/src/GloomZ/Log.h" line="17" column="1" bodyfile="C:/Users/mourad/source/repos/GloomZ/GloomZ/src/GloomZ/Log.h" bodystart="17" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="class_gloom_z_1_1_log_1a6a9f038b5fd95741383ff49c1635a635" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::shared_ptr&lt; spdlog::logger &gt; &amp;</type>
+        <definition>static std::shared_ptr&lt;spdlog::logger&gt;&amp; GloomZ::Log::GetClientLogger</definition>
+        <argsstring>()</argsstring>
+        <name>GetClientLogger</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/mourad/source/repos/GloomZ/GloomZ/src/GloomZ/Log.h" line="18" column="1" bodyfile="C:/Users/mourad/source/repos/GloomZ/GloomZ/src/GloomZ/Log.h" bodystart="18" bodyend="18"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/mourad/source/repos/GloomZ/GloomZ/src/GloomZ/Log.h" line="13" column="1" bodyfile="C:/Users/mourad/source/repos/GloomZ/GloomZ/src/GloomZ/Log.h" bodystart="13" bodyend="23"/>
+    <listofallmembers>
+      <member refid="class_gloom_z_1_1_log_1a6a9f038b5fd95741383ff49c1635a635" prot="public" virt="non-virtual"><scope>GloomZ::Log</scope><name>GetClientLogger</name></member>
+      <member refid="class_gloom_z_1_1_log_1a6fab90d6c9bc202547748ab71a859373" prot="public" virt="non-virtual"><scope>GloomZ::Log</scope><name>GetCoreLogger</name></member>
+      <member refid="class_gloom_z_1_1_log_1ae5c1b467c43db0a3699f9c2a988efae8" prot="public" virt="non-virtual"><scope>GloomZ::Log</scope><name>Init</name></member>
+      <member refid="class_gloom_z_1_1_log_1a535d995f848accd929687784dd7330c2" prot="private" virt="non-virtual"><scope>GloomZ::Log</scope><name>s_ClientLogger</name></member>
+      <member refid="class_gloom_z_1_1_log_1a8214830ded6f06ec5509d5a547f93722" prot="private" virt="non-virtual"><scope>GloomZ::Log</scope><name>s_CoreLogger</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

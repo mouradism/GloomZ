@@ -2,10 +2,10 @@
 
 #include <memory>
 #include "Core.h"
-//#include <spdlog/spdlog.h>
-#include "C:/Users/mourad/source/repos/GloomZ/GloomZ/vendor/spdlog/include/spdlog/spdlog.h"
-//#include <spdlog/sinks/stdout_color_sinks.h>
-#include "C:/Users/mourad/source/repos/GloomZ/GloomZ/vendor/spdlog/include/spdlog/sinks/stdout_color_sinks.h"
+#include <spdlog/spdlog.h>
+
+#include <spdlog/sinks/stdout_color_sinks.h>
+
 
 
 namespace GloomZ {

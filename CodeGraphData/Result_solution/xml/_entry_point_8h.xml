@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_entry_point_8h" kind="file">
+    <compoundname>EntryPoint.h</compoundname>
+    <includedby refid="_gloom_z_8h" local="yes">C:/Users/mourad/source/repos/GloomZ/GloomZ/src/GloomZ.h</includedby>
+    <invincdepgraph>
+      <node id="32">
+        <label>C:/Users/mourad/source/repos/GloomZ/GloomZ/src/GloomZ/EntryPoint.h</label>
+        <link refid="EntryPoint.h"/>
+        <childnode refid="33" relation="include">
+        </childnode>
+      </node>
+      <node id="33">
+        <label>C:/Users/mourad/source/repos/GloomZ/GloomZ/src/GloomZ.h</label>
+        <link refid="_gloom_z_8h"/>
+        <childnode refid="34" relation="include">
+        </childnode>
+      </node>
+      <node id="34">
+        <label>C:/Users/mourad/source/repos/GloomZ/Sandbox/src/SandboxApp.cpp</label>
+        <link refid="_sandbox_app_8cpp"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_entry_point_8h_1a3c04138a5bfe5d72780bb7e82a18e627" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int main</definition>
+        <argsstring>(int argc, char **argv)</argsstring>
+        <name>main</name>
+        <param>
+          <type>int</type>
+          <declname>argc</declname>
+        </param>
+        <param>
+          <type>char **</type>
+          <declname>argv</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/mourad/source/repos/GloomZ/GloomZ/src/GloomZ/EntryPoint.h" line="7" column="1" bodyfile="C:/Users/mourad/source/repos/GloomZ/GloomZ/src/GloomZ/EntryPoint.h" bodystart="7" bodyend="27"/>
+        <references refid="namespace_gloom_z_1acc23009b2d481b45843d2d6480f999ad" compoundref="_sandbox_app_8cpp" startline="15" endline="17">GloomZ::CreateApplication</references>
+        <references refid="_log_8h_1ab5008c90b39db2a933483c54e82a764a" compoundref="_log_8h" startline="37">GL_CLNT_INFO</references>
+        <references refid="_log_8h_1a366eb357d13c940679f48d1ccbaea4b9" compoundref="_log_8h" startline="29">GL_CORE_WARN</references>
+        <references refid="class_gloom_z_1_1_log_1ae5c1b467c43db0a3699f9c2a988efae8" compoundref="_log_8cpp" startline="9" endline="17">GloomZ::Log::Init</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>GL_PLATFORM_WINDOWS</highlight></codeline>
+<codeline lineno="4"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/><ref refid="class_gloom_z_1_1_application" kindref="compound">GloomZ::Application</ref>*<sp/><ref refid="namespace_gloom_z_1acc23009b2d481b45843d2d6480f999ad" kindref="member">GloomZ::CreateApplication</ref>();</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="_entry_point_8h_1a3c04138a5bfe5d72780bb7e82a18e627" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_entry_point_8h_1a3c04138a5bfe5d72780bb7e82a18e627" kindref="member">main</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>argc,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">**<sp/>argv)<sp/>{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----log<sp/>system------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_gloom_z_1_1_log_1ae5c1b467c43db0a3699f9c2a988efae8" kindref="member">GloomZ::Log::Init</ref>();</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>a<sp/>=<sp/>10;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_log_8h_1a366eb357d13c940679f48d1ccbaea4b9" kindref="member">GL_CORE_WARN</ref>(</highlight><highlight class="stringliteral">&quot;Initialized<sp/>core<sp/><sp/>:<sp/>---------<sp/>:<sp/>Var={0}&quot;</highlight><highlight class="normal">,a);</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_log_8h_1ab5008c90b39db2a933483c54e82a764a" kindref="member">GL_CLNT_INFO</ref>(</highlight><highlight class="stringliteral">&quot;Initialized<sp/>client:<sp/>---------<sp/>:<sp/>&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//----<sp/><sp/>THE<sp/>APP<sp/><sp/>------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>app<sp/>=<sp/><ref refid="namespace_gloom_z_1acc23009b2d481b45843d2d6480f999ad" kindref="member">GloomZ::CreateApplication</ref>();</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>app-&gt;Run();</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/>app;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="30"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/mourad/source/repos/GloomZ/GloomZ/src/GloomZ/EntryPoint.h"/>
+  </compounddef>
+</doxygen>

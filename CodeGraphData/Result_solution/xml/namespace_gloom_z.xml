@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_gloom_z" kind="namespace">
+    <compoundname>GloomZ</compoundname>
+    <innerclass refid="class_gloom_z_1_1_application" prot="public">GloomZ::Application</innerclass>
+    <innerclass refid="class_gloom_z_1_1_log" prot="public">GloomZ::Log</innerclass>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespace_gloom_z_1acc23009b2d481b45843d2d6480f999ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_gloom_z_1_1_application" kindref="compound">Application</ref> *</type>
+        <definition>GloomZ::Application * GloomZ::CreateApplication</definition>
+        <argsstring>()</argsstring>
+        <name>CreateApplication</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/mourad/source/repos/GloomZ/GloomZ/src/GloomZ/Application.h" line="16" column="1" bodyfile="C:/Users/mourad/source/repos/GloomZ/Sandbox/src/SandboxApp.cpp" bodystart="15" bodyend="17"/>
+        <referencedby refid="_entry_point_8h_1a3c04138a5bfe5d72780bb7e82a18e627" compoundref="_entry_point_8h" startline="7" endline="27">main</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/mourad/source/repos/GloomZ/GloomZ/src/GloomZ/Application.cpp" line="4" column="1"/>
+  </compounddef>
+</doxygen>

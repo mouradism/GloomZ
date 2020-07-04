@@ -1,0 +1,834 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_log_8cpp" kind="file">
+    <compoundname>Log.cpp</compoundname>
+    <includes refid="_log_8h" local="yes">Log.h</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/yvals_core.h</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/exception</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/yvals.h</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/type_traits</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/xstddef</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/cstddef</includes>
+    <includes local="no">C:/Program Files (x86)/Windows Kits/10/Include/10.0.17763.0/ucrt/stddef.h</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/xtr1common</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/cstdlib</includes>
+    <includes local="no">C:/Program Files (x86)/Windows Kits/10/Include/10.0.17763.0/ucrt/math.h</includes>
+    <includes local="no">C:/Program Files (x86)/Windows Kits/10/Include/10.0.17763.0/ucrt/stdlib.h</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/initializer_list</includes>
+    <includes local="no">C:/Program Files (x86)/Windows Kits/10/Include/10.0.17763.0/ucrt/malloc.h</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/vcruntime_exception.h</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/iosfwd</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/cstdio</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/cstring</includes>
+    <includes local="no">C:/Program Files (x86)/Windows Kits/10/Include/10.0.17763.0/ucrt/string.h</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/cwchar</includes>
+    <includes local="no">C:/Program Files (x86)/Windows Kits/10/Include/10.0.17763.0/ucrt/wchar.h</includes>
+    <includes local="no">C:/Program Files (x86)/Windows Kits/10/Include/10.0.17763.0/ucrt/corecrt.h</includes>
+    <includes local="no">C:/Program Files (x86)/Windows Kits/10/Include/10.0.17763.0/ucrt/sys/types.h</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/typeinfo</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/vcruntime_typeinfo.h</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/xmemory</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/cstdint</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/stdint.h</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/limits</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/cfloat</includes>
+    <includes local="no">C:/Program Files (x86)/Windows Kits/10/Include/10.0.17763.0/ucrt/float.h</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/climits</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/limits.h</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/new</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/vcruntime_new.h</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/xatomic.h</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/xutility</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/utility</includes>
+    <includes local="no">C:/Users/mourad/source/repos/GloomZ/GloomZ/vendor/spdlog/include/spdlog/common.h</includes>
+    <includes local="no">C:/Users/mourad/source/repos/GloomZ/GloomZ/vendor/spdlog/include/spdlog/tweakme.h</includes>
+    <includes local="no">C:/Users/mourad/source/repos/GloomZ/GloomZ/vendor/spdlog/include/spdlog/details/null_mutex.h</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/atomic</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/chrono</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/ratio</includes>
+    <includes local="no">C:/Program Files (x86)/Windows Kits/10/Include/10.0.17763.0/ucrt/time.h</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/xtimec.h</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/memory</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/string</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/xstring</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/cctype</includes>
+    <includes local="no">C:/Program Files (x86)/Windows Kits/10/Include/10.0.17763.0/ucrt/ctype.h</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/functional</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/tuple</includes>
+    <includes local="no">C:/Users/mourad/source/repos/GloomZ/GloomZ/vendor/spdlog/include/spdlog/fmt/fmt.h</includes>
+    <includes local="no">C:/Users/mourad/source/repos/GloomZ/GloomZ/vendor/spdlog/include/spdlog/fmt/bundled/core.h</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/iterator</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/vector</includes>
+    <includes local="no">C:/Users/mourad/source/repos/GloomZ/GloomZ/vendor/spdlog/include/spdlog/fmt/bundled/format.h</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/algorithm</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/cerrno</includes>
+    <includes local="no">C:/Program Files (x86)/Windows Kits/10/Include/10.0.17763.0/ucrt/errno.h</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/cmath</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/stdexcept</includes>
+    <includes local="yes">C:/Users/mourad/source/repos/GloomZ/GloomZ/vendor/spdlog/include/spdlog/fmt/bundled/format-inl.h</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/cassert</includes>
+    <includes local="no">C:/Program Files (x86)/Windows Kits/10/Include/10.0.17763.0/ucrt/assert.h</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/cstdarg</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/stdarg.h</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/locale</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/xlocbuf</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/streambuf</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/xiosbase</includes>
+    <includes local="no">C:/Program Files (x86)/Windows Kits/10/Include/10.0.17763.0/ucrt/share.h</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/system_error</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/__msvc_system_error_abi.hpp</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/xcall_once.h</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/xerrc.h</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/xlocale</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/xfacet</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/xlocinfo</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/xlocinfo.h</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/xlocmes</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/xlocmon</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/xlocnum</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/xloctime</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/ctime</includes>
+    <includes local="yes">C:/Users/mourad/source/repos/GloomZ/GloomZ/vendor/spdlog/include/spdlog/common-inl.h</includes>
+    <includes local="no">C:/Users/mourad/source/repos/GloomZ/GloomZ/vendor/spdlog/include/spdlog/details/registry.h</includes>
+    <includes local="no">C:/Users/mourad/source/repos/GloomZ/GloomZ/vendor/spdlog/include/spdlog/cfg/log_levels.h</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/unordered_map</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/xhash</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/list</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/xbit_ops.h</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/mutex</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/thread</includes>
+    <includes local="no">C:/Program Files (x86)/Windows Kits/10/Include/10.0.17763.0/ucrt/process.h</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/xthreads.h</includes>
+    <includes local="yes">C:/Users/mourad/source/repos/GloomZ/GloomZ/vendor/spdlog/include/spdlog/details/registry-inl.h</includes>
+    <includes local="no">C:/Users/mourad/source/repos/GloomZ/GloomZ/vendor/spdlog/include/spdlog/details/periodic_worker.h</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/condition_variable</includes>
+    <includes local="yes">C:/Users/mourad/source/repos/GloomZ/GloomZ/vendor/spdlog/include/spdlog/details/periodic_worker-inl.h</includes>
+    <includes local="no">C:/Users/mourad/source/repos/GloomZ/GloomZ/vendor/spdlog/include/spdlog/logger.h</includes>
+    <includes local="no">C:/Users/mourad/source/repos/GloomZ/GloomZ/vendor/spdlog/include/spdlog/details/log_msg.h</includes>
+    <includes local="yes">C:/Users/mourad/source/repos/GloomZ/GloomZ/vendor/spdlog/include/spdlog/details/log_msg-inl.h</includes>
+    <includes local="no">C:/Users/mourad/source/repos/GloomZ/GloomZ/vendor/spdlog/include/spdlog/details/os.h</includes>
+    <includes local="yes">C:/Users/mourad/source/repos/GloomZ/GloomZ/vendor/spdlog/include/spdlog/details/os-inl.h</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/array</includes>
+    <includes local="no">C:/Program Files (x86)/Windows Kits/10/Include/10.0.17763.0/ucrt/sys/stat.h</includes>
+    <includes local="no">C:/Program Files (x86)/Windows Kits/10/Include/10.0.17763.0/ucrt/fcntl.h</includes>
+    <includes local="no">unistd.h</includes>
+    <includes local="no">C:/Users/mourad/source/repos/GloomZ/GloomZ/vendor/spdlog/include/spdlog/details/backtracer.h</includes>
+    <includes local="no">C:/Users/mourad/source/repos/GloomZ/GloomZ/vendor/spdlog/include/spdlog/details/log_msg_buffer.h</includes>
+    <includes local="yes">C:/Users/mourad/source/repos/GloomZ/GloomZ/vendor/spdlog/include/spdlog/details/log_msg_buffer-inl.h</includes>
+    <includes local="no">C:/Users/mourad/source/repos/GloomZ/GloomZ/vendor/spdlog/include/spdlog/details/circular_q.h</includes>
+    <includes local="yes">C:/Users/mourad/source/repos/GloomZ/GloomZ/vendor/spdlog/include/spdlog/details/backtracer-inl.h</includes>
+    <includes local="yes">C:/Users/mourad/source/repos/GloomZ/GloomZ/vendor/spdlog/include/spdlog/logger-inl.h</includes>
+    <includes local="no">C:/Users/mourad/source/repos/GloomZ/GloomZ/vendor/spdlog/include/spdlog/sinks/sink.h</includes>
+    <includes local="no">C:/Users/mourad/source/repos/GloomZ/GloomZ/vendor/spdlog/include/spdlog/formatter.h</includes>
+    <includes local="yes">C:/Users/mourad/source/repos/GloomZ/GloomZ/vendor/spdlog/include/spdlog/sinks/sink-inl.h</includes>
+    <includes local="no">C:/Users/mourad/source/repos/GloomZ/GloomZ/vendor/spdlog/include/spdlog/pattern_formatter.h</includes>
+    <includes local="yes">C:/Users/mourad/source/repos/GloomZ/GloomZ/vendor/spdlog/include/spdlog/pattern_formatter-inl.h</includes>
+    <includes local="no">C:/Users/mourad/source/repos/GloomZ/GloomZ/vendor/spdlog/include/spdlog/details/fmt_helper.h</includes>
+    <includes local="no">C:/Users/mourad/source/repos/GloomZ/GloomZ/vendor/spdlog/include/spdlog/sinks/ansicolor_sink.h</includes>
+    <includes local="no">C:/Users/mourad/source/repos/GloomZ/GloomZ/vendor/spdlog/include/spdlog/details/console_globals.h</includes>
+    <includes local="yes">C:/Users/mourad/source/repos/GloomZ/GloomZ/vendor/spdlog/include/spdlog/sinks/ansicolor_sink-inl.h</includes>
+    <includes local="no">C:/Users/mourad/source/repos/GloomZ/GloomZ/vendor/spdlog/include/spdlog/version.h</includes>
+    <includes local="no">C:/Users/mourad/source/repos/GloomZ/GloomZ/vendor/spdlog/include/spdlog/details/synchronous_factory.h</includes>
+    <includes local="yes">C:/Users/mourad/source/repos/GloomZ/GloomZ/vendor/spdlog/include/spdlog/spdlog-inl.h</includes>
+    <includes local="yes">C:/Users/mourad/source/repos/GloomZ/GloomZ/vendor/spdlog/include/spdlog/sinks/stdout_color_sinks-inl.h</includes>
+    <incdepgraph>
+      <node id="156">
+        <label>C:/Users/mourad/source/repos/GloomZ/GloomZ/vendor/spdlog/include/spdlog/sinks/sink.h</label>
+      </node>
+      <node id="45">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/xstddef</label>
+      </node>
+      <node id="58">
+        <label>C:/Program Files (x86)/Windows Kits/10/Include/10.0.17763.0/ucrt/string.h</label>
+      </node>
+      <node id="92">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/tuple</label>
+      </node>
+      <node id="42">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/exception</label>
+      </node>
+      <node id="168">
+        <label>C:/Users/mourad/source/repos/GloomZ/GloomZ/vendor/spdlog/include/spdlog/sinks/stdout_color_sinks-inl.h</label>
+      </node>
+      <node id="59">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/cwchar</label>
+      </node>
+      <node id="104">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/cassert</label>
+      </node>
+      <node id="66">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/cstdint</label>
+      </node>
+      <node id="44">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/type_traits</label>
+      </node>
+      <node id="128">
+        <label>C:/Users/mourad/source/repos/GloomZ/GloomZ/vendor/spdlog/include/spdlog/cfg/log_levels.h</label>
+      </node>
+      <node id="108">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/locale</label>
+      </node>
+      <node id="86">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/memory</label>
+      </node>
+      <node id="101">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/cmath</label>
+      </node>
+      <node id="68">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/limits</label>
+      </node>
+      <node id="76">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/xutility</label>
+      </node>
+      <node id="97">
+        <label>C:/Users/mourad/source/repos/GloomZ/GloomZ/vendor/spdlog/include/spdlog/fmt/bundled/format.h</label>
+      </node>
+      <node id="137">
+        <label>C:/Users/mourad/source/repos/GloomZ/GloomZ/vendor/spdlog/include/spdlog/details/registry-inl.h</label>
+      </node>
+      <node id="140">
+        <label>C:/Users/mourad/source/repos/GloomZ/GloomZ/vendor/spdlog/include/spdlog/details/periodic_worker-inl.h</label>
+      </node>
+      <node id="81">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/atomic</label>
+      </node>
+      <node id="141">
+        <label>C:/Users/mourad/source/repos/GloomZ/GloomZ/vendor/spdlog/include/spdlog/logger.h</label>
+      </node>
+      <node id="77">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/utility</label>
+      </node>
+      <node id="127">
+        <label>C:/Users/mourad/source/repos/GloomZ/GloomZ/vendor/spdlog/include/spdlog/details/registry.h</label>
+      </node>
+      <node id="78">
+        <label>C:/Users/mourad/source/repos/GloomZ/GloomZ/vendor/spdlog/include/spdlog/common.h</label>
+      </node>
+      <node id="144">
+        <label>C:/Users/mourad/source/repos/GloomZ/GloomZ/vendor/spdlog/include/spdlog/details/os.h</label>
+      </node>
+      <node id="112">
+        <label>C:/Program Files (x86)/Windows Kits/10/Include/10.0.17763.0/ucrt/share.h</label>
+      </node>
+      <node id="55">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/iosfwd</label>
+      </node>
+      <node id="72">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/limits.h</label>
+      </node>
+      <node id="41">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/yvals_core.h</label>
+      </node>
+      <node id="129">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/unordered_map</label>
+      </node>
+      <node id="132">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/xbit_ops.h</label>
+      </node>
+      <node id="153">
+        <label>C:/Users/mourad/source/repos/GloomZ/GloomZ/vendor/spdlog/include/spdlog/details/circular_q.h</label>
+      </node>
+      <node id="106">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/cstdarg</label>
+      </node>
+      <node id="88">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/xstring</label>
+      </node>
+      <node id="152">
+        <label>C:/Users/mourad/source/repos/GloomZ/GloomZ/vendor/spdlog/include/spdlog/details/log_msg_buffer-inl.h</label>
+      </node>
+      <node id="126">
+        <label>C:/Users/mourad/source/repos/GloomZ/GloomZ/vendor/spdlog/include/spdlog/common-inl.h</label>
+      </node>
+      <node id="100">
+        <label>C:/Program Files (x86)/Windows Kits/10/Include/10.0.17763.0/ucrt/errno.h</label>
+      </node>
+      <node id="62">
+        <label>C:/Program Files (x86)/Windows Kits/10/Include/10.0.17763.0/ucrt/sys/types.h</label>
+      </node>
+      <node id="148">
+        <label>C:/Program Files (x86)/Windows Kits/10/Include/10.0.17763.0/ucrt/fcntl.h</label>
+      </node>
+      <node id="40">
+        <label>C:/Users/mourad/source/repos/GloomZ/GloomZ/vendor/spdlog/include/spdlog/sinks/stdout_color_sinks.h</label>
+      </node>
+      <node id="102">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/stdexcept</label>
+      </node>
+      <node id="69">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/cfloat</label>
+      </node>
+      <node id="64">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/vcruntime_typeinfo.h</label>
+      </node>
+      <node id="109">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/xlocbuf</label>
+      </node>
+      <node id="60">
+        <label>C:/Program Files (x86)/Windows Kits/10/Include/10.0.17763.0/ucrt/wchar.h</label>
+      </node>
+      <node id="93">
+        <label>C:/Users/mourad/source/repos/GloomZ/GloomZ/vendor/spdlog/include/spdlog/fmt/fmt.h</label>
+      </node>
+      <node id="166">
+        <label>C:/Users/mourad/source/repos/GloomZ/GloomZ/vendor/spdlog/include/spdlog/details/synchronous_factory.h</label>
+      </node>
+      <node id="74">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/vcruntime_new.h</label>
+      </node>
+      <node id="94">
+        <label>C:/Users/mourad/source/repos/GloomZ/GloomZ/vendor/spdlog/include/spdlog/fmt/bundled/core.h</label>
+      </node>
+      <node id="47">
+        <label>C:/Program Files (x86)/Windows Kits/10/Include/10.0.17763.0/ucrt/stddef.h</label>
+      </node>
+      <node id="138">
+        <label>C:/Users/mourad/source/repos/GloomZ/GloomZ/vendor/spdlog/include/spdlog/details/periodic_worker.h</label>
+      </node>
+      <node id="150">
+        <label>C:/Users/mourad/source/repos/GloomZ/GloomZ/vendor/spdlog/include/spdlog/details/backtracer.h</label>
+      </node>
+      <node id="124">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/xloctime</label>
+      </node>
+      <node id="82">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/chrono</label>
+      </node>
+      <node id="120">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/xlocinfo.h</label>
+      </node>
+      <node id="133">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/mutex</label>
+      </node>
+      <node id="165">
+        <label>C:/Users/mourad/source/repos/GloomZ/GloomZ/vendor/spdlog/include/spdlog/version.h</label>
+      </node>
+      <node id="43">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/yvals.h</label>
+      </node>
+      <node id="123">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/xlocnum</label>
+      </node>
+      <node id="162">
+        <label>C:/Users/mourad/source/repos/GloomZ/GloomZ/vendor/spdlog/include/spdlog/sinks/ansicolor_sink.h</label>
+      </node>
+      <node id="89">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/cctype</label>
+      </node>
+      <node id="85">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/xtimec.h</label>
+      </node>
+      <node id="167">
+        <label>C:/Users/mourad/source/repos/GloomZ/GloomZ/vendor/spdlog/include/spdlog/spdlog-inl.h</label>
+      </node>
+      <node id="142">
+        <label>C:/Users/mourad/source/repos/GloomZ/GloomZ/vendor/spdlog/include/spdlog/details/log_msg.h</label>
+      </node>
+      <node id="115">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/xcall_once.h</label>
+      </node>
+      <node id="164">
+        <label>C:/Users/mourad/source/repos/GloomZ/GloomZ/vendor/spdlog/include/spdlog/sinks/ansicolor_sink-inl.h</label>
+      </node>
+      <node id="95">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/iterator</label>
+      </node>
+      <node id="90">
+        <label>C:/Program Files (x86)/Windows Kits/10/Include/10.0.17763.0/ucrt/ctype.h</label>
+      </node>
+      <node id="125">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/ctime</label>
+      </node>
+      <node id="134">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/thread</label>
+      </node>
+      <node id="65">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/xmemory</label>
+      </node>
+      <node id="146">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/array</label>
+      </node>
+      <node id="38">
+        <label>Core.h</label>
+        <link refid="_core_8h"/>
+      </node>
+      <node id="157">
+        <label>C:/Users/mourad/source/repos/GloomZ/GloomZ/vendor/spdlog/include/spdlog/formatter.h</label>
+      </node>
+      <node id="139">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/condition_variable</label>
+      </node>
+      <node id="50">
+        <label>C:/Program Files (x86)/Windows Kits/10/Include/10.0.17763.0/ucrt/math.h</label>
+      </node>
+      <node id="116">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/xerrc.h</label>
+      </node>
+      <node id="105">
+        <label>C:/Program Files (x86)/Windows Kits/10/Include/10.0.17763.0/ucrt/assert.h</label>
+      </node>
+      <node id="54">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/vcruntime_exception.h</label>
+      </node>
+      <node id="70">
+        <label>C:/Program Files (x86)/Windows Kits/10/Include/10.0.17763.0/ucrt/float.h</label>
+      </node>
+      <node id="61">
+        <label>C:/Program Files (x86)/Windows Kits/10/Include/10.0.17763.0/ucrt/corecrt.h</label>
+      </node>
+      <node id="143">
+        <label>C:/Users/mourad/source/repos/GloomZ/GloomZ/vendor/spdlog/include/spdlog/details/log_msg-inl.h</label>
+      </node>
+      <node id="147">
+        <label>C:/Program Files (x86)/Windows Kits/10/Include/10.0.17763.0/ucrt/sys/stat.h</label>
+      </node>
+      <node id="151">
+        <label>C:/Users/mourad/source/repos/GloomZ/GloomZ/vendor/spdlog/include/spdlog/details/log_msg_buffer.h</label>
+      </node>
+      <node id="149">
+        <label>unistd.h</label>
+      </node>
+      <node id="119">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/xlocinfo</label>
+      </node>
+      <node id="158">
+        <label>C:/Users/mourad/source/repos/GloomZ/GloomZ/vendor/spdlog/include/spdlog/sinks/sink-inl.h</label>
+      </node>
+      <node id="53">
+        <label>C:/Program Files (x86)/Windows Kits/10/Include/10.0.17763.0/ucrt/malloc.h</label>
+      </node>
+      <node id="136">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/xthreads.h</label>
+      </node>
+      <node id="114">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/__msvc_system_error_abi.hpp</label>
+      </node>
+      <node id="154">
+        <label>C:/Users/mourad/source/repos/GloomZ/GloomZ/vendor/spdlog/include/spdlog/details/backtracer-inl.h</label>
+      </node>
+      <node id="130">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/xhash</label>
+      </node>
+      <node id="79">
+        <label>C:/Users/mourad/source/repos/GloomZ/GloomZ/vendor/spdlog/include/spdlog/tweakme.h</label>
+      </node>
+      <node id="52">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/initializer_list</label>
+      </node>
+      <node id="118">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/xfacet</label>
+      </node>
+      <node id="131">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/list</label>
+      </node>
+      <node id="99">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/cerrno</label>
+      </node>
+      <node id="96">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/vector</label>
+      </node>
+      <node id="160">
+        <label>C:/Users/mourad/source/repos/GloomZ/GloomZ/vendor/spdlog/include/spdlog/pattern_formatter-inl.h</label>
+      </node>
+      <node id="71">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/climits</label>
+      </node>
+      <node id="36">
+        <label>Log.h</label>
+        <link refid="_log_8h"/>
+        <childnode refid="37" relation="include">
+        </childnode>
+        <childnode refid="38" relation="include">
+        </childnode>
+        <childnode refid="39" relation="include">
+        </childnode>
+        <childnode refid="40" relation="include">
+        </childnode>
+      </node>
+      <node id="110">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/streambuf</label>
+      </node>
+      <node id="39">
+        <label>C:/Users/mourad/source/repos/GloomZ/GloomZ/vendor/spdlog/include/spdlog/spdlog.h</label>
+      </node>
+      <node id="46">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/cstddef</label>
+      </node>
+      <node id="84">
+        <label>C:/Program Files (x86)/Windows Kits/10/Include/10.0.17763.0/ucrt/time.h</label>
+      </node>
+      <node id="107">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/stdarg.h</label>
+      </node>
+      <node id="103">
+        <label>C:/Users/mourad/source/repos/GloomZ/GloomZ/vendor/spdlog/include/spdlog/fmt/bundled/format-inl.h</label>
+      </node>
+      <node id="49">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/cstdlib</label>
+      </node>
+      <node id="163">
+        <label>C:/Users/mourad/source/repos/GloomZ/GloomZ/vendor/spdlog/include/spdlog/details/console_globals.h</label>
+      </node>
+      <node id="145">
+        <label>C:/Users/mourad/source/repos/GloomZ/GloomZ/vendor/spdlog/include/spdlog/details/os-inl.h</label>
+      </node>
+      <node id="83">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/ratio</label>
+      </node>
+      <node id="113">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/system_error</label>
+      </node>
+      <node id="121">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/xlocmes</label>
+      </node>
+      <node id="159">
+        <label>C:/Users/mourad/source/repos/GloomZ/GloomZ/vendor/spdlog/include/spdlog/pattern_formatter.h</label>
+      </node>
+      <node id="57">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/cstring</label>
+      </node>
+      <node id="80">
+        <label>C:/Users/mourad/source/repos/GloomZ/GloomZ/vendor/spdlog/include/spdlog/details/null_mutex.h</label>
+      </node>
+      <node id="155">
+        <label>C:/Users/mourad/source/repos/GloomZ/GloomZ/vendor/spdlog/include/spdlog/logger-inl.h</label>
+      </node>
+      <node id="135">
+        <label>C:/Program Files (x86)/Windows Kits/10/Include/10.0.17763.0/ucrt/process.h</label>
+      </node>
+      <node id="51">
+        <label>C:/Program Files (x86)/Windows Kits/10/Include/10.0.17763.0/ucrt/stdlib.h</label>
+      </node>
+      <node id="111">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/xiosbase</label>
+      </node>
+      <node id="35">
+        <label>C:/Users/mourad/source/repos/GloomZ/GloomZ/src/GloomZ/Log.cpp</label>
+        <link refid="Log.cpp"/>
+        <childnode refid="36" relation="include">
+        </childnode>
+        <childnode refid="41" relation="include">
+        </childnode>
+        <childnode refid="42" relation="include">
+        </childnode>
+        <childnode refid="43" relation="include">
+        </childnode>
+        <childnode refid="44" relation="include">
+        </childnode>
+        <childnode refid="45" relation="include">
+        </childnode>
+        <childnode refid="46" relation="include">
+        </childnode>
+        <childnode refid="47" relation="include">
+        </childnode>
+        <childnode refid="48" relation="include">
+        </childnode>
+        <childnode refid="49" relation="include">
+        </childnode>
+        <childnode refid="50" relation="include">
+        </childnode>
+        <childnode refid="51" relation="include">
+        </childnode>
+        <childnode refid="52" relation="include">
+        </childnode>
+        <childnode refid="53" relation="include">
+        </childnode>
+        <childnode refid="54" relation="include">
+        </childnode>
+        <childnode refid="55" relation="include">
+        </childnode>
+        <childnode refid="56" relation="include">
+        </childnode>
+        <childnode refid="57" relation="include">
+        </childnode>
+        <childnode refid="58" relation="include">
+        </childnode>
+        <childnode refid="59" relation="include">
+        </childnode>
+        <childnode refid="60" relation="include">
+        </childnode>
+        <childnode refid="61" relation="include">
+        </childnode>
+        <childnode refid="62" relation="include">
+        </childnode>
+        <childnode refid="63" relation="include">
+        </childnode>
+        <childnode refid="64" relation="include">
+        </childnode>
+        <childnode refid="65" relation="include">
+        </childnode>
+        <childnode refid="66" relation="include">
+        </childnode>
+        <childnode refid="67" relation="include">
+        </childnode>
+        <childnode refid="68" relation="include">
+        </childnode>
+        <childnode refid="69" relation="include">
+        </childnode>
+        <childnode refid="70" relation="include">
+        </childnode>
+        <childnode refid="71" relation="include">
+        </childnode>
+        <childnode refid="72" relation="include">
+        </childnode>
+        <childnode refid="73" relation="include">
+        </childnode>
+        <childnode refid="74" relation="include">
+        </childnode>
+        <childnode refid="75" relation="include">
+        </childnode>
+        <childnode refid="76" relation="include">
+        </childnode>
+        <childnode refid="77" relation="include">
+        </childnode>
+        <childnode refid="78" relation="include">
+        </childnode>
+        <childnode refid="79" relation="include">
+        </childnode>
+        <childnode refid="80" relation="include">
+        </childnode>
+        <childnode refid="81" relation="include">
+        </childnode>
+        <childnode refid="82" relation="include">
+        </childnode>
+        <childnode refid="83" relation="include">
+        </childnode>
+        <childnode refid="84" relation="include">
+        </childnode>
+        <childnode refid="85" relation="include">
+        </childnode>
+        <childnode refid="86" relation="include">
+        </childnode>
+        <childnode refid="87" relation="include">
+        </childnode>
+        <childnode refid="88" relation="include">
+        </childnode>
+        <childnode refid="89" relation="include">
+        </childnode>
+        <childnode refid="90" relation="include">
+        </childnode>
+        <childnode refid="91" relation="include">
+        </childnode>
+        <childnode refid="92" relation="include">
+        </childnode>
+        <childnode refid="93" relation="include">
+        </childnode>
+        <childnode refid="94" relation="include">
+        </childnode>
+        <childnode refid="95" relation="include">
+        </childnode>
+        <childnode refid="96" relation="include">
+        </childnode>
+        <childnode refid="97" relation="include">
+        </childnode>
+        <childnode refid="98" relation="include">
+        </childnode>
+        <childnode refid="99" relation="include">
+        </childnode>
+        <childnode refid="100" relation="include">
+        </childnode>
+        <childnode refid="101" relation="include">
+        </childnode>
+        <childnode refid="102" relation="include">
+        </childnode>
+        <childnode refid="103" relation="include">
+        </childnode>
+        <childnode refid="104" relation="include">
+        </childnode>
+        <childnode refid="105" relation="include">
+        </childnode>
+        <childnode refid="106" relation="include">
+        </childnode>
+        <childnode refid="107" relation="include">
+        </childnode>
+        <childnode refid="108" relation="include">
+        </childnode>
+        <childnode refid="109" relation="include">
+        </childnode>
+        <childnode refid="110" relation="include">
+        </childnode>
+        <childnode refid="111" relation="include">
+        </childnode>
+        <childnode refid="112" relation="include">
+        </childnode>
+        <childnode refid="113" relation="include">
+        </childnode>
+        <childnode refid="114" relation="include">
+        </childnode>
+        <childnode refid="115" relation="include">
+        </childnode>
+        <childnode refid="116" relation="include">
+        </childnode>
+        <childnode refid="117" relation="include">
+        </childnode>
+        <childnode refid="118" relation="include">
+        </childnode>
+        <childnode refid="119" relation="include">
+        </childnode>
+        <childnode refid="120" relation="include">
+        </childnode>
+        <childnode refid="121" relation="include">
+        </childnode>
+        <childnode refid="122" relation="include">
+        </childnode>
+        <childnode refid="123" relation="include">
+        </childnode>
+        <childnode refid="124" relation="include">
+        </childnode>
+        <childnode refid="125" relation="include">
+        </childnode>
+        <childnode refid="126" relation="include">
+        </childnode>
+        <childnode refid="127" relation="include">
+        </childnode>
+        <childnode refid="128" relation="include">
+        </childnode>
+        <childnode refid="129" relation="include">
+        </childnode>
+        <childnode refid="130" relation="include">
+        </childnode>
+        <childnode refid="131" relation="include">
+        </childnode>
+        <childnode refid="132" relation="include">
+        </childnode>
+        <childnode refid="133" relation="include">
+        </childnode>
+        <childnode refid="134" relation="include">
+        </childnode>
+        <childnode refid="135" relation="include">
+        </childnode>
+        <childnode refid="136" relation="include">
+        </childnode>
+        <childnode refid="137" relation="include">
+        </childnode>
+        <childnode refid="138" relation="include">
+        </childnode>
+        <childnode refid="139" relation="include">
+        </childnode>
+        <childnode refid="140" relation="include">
+        </childnode>
+        <childnode refid="141" relation="include">
+        </childnode>
+        <childnode refid="142" relation="include">
+        </childnode>
+        <childnode refid="143" relation="include">
+        </childnode>
+        <childnode refid="144" relation="include">
+        </childnode>
+        <childnode refid="145" relation="include">
+        </childnode>
+        <childnode refid="146" relation="include">
+        </childnode>
+        <childnode refid="147" relation="include">
+        </childnode>
+        <childnode refid="148" relation="include">
+        </childnode>
+        <childnode refid="149" relation="include">
+        </childnode>
+        <childnode refid="150" relation="include">
+        </childnode>
+        <childnode refid="151" relation="include">
+        </childnode>
+        <childnode refid="152" relation="include">
+        </childnode>
+        <childnode refid="153" relation="include">
+        </childnode>
+        <childnode refid="154" relation="include">
+        </childnode>
+        <childnode refid="155" relation="include">
+        </childnode>
+        <childnode refid="156" relation="include">
+        </childnode>
+        <childnode refid="157" relation="include">
+        </childnode>
+        <childnode refid="158" relation="include">
+        </childnode>
+        <childnode refid="159" relation="include">
+        </childnode>
+        <childnode refid="160" relation="include">
+        </childnode>
+        <childnode refid="161" relation="include">
+        </childnode>
+        <childnode refid="162" relation="include">
+        </childnode>
+        <childnode refid="163" relation="include">
+        </childnode>
+        <childnode refid="164" relation="include">
+        </childnode>
+        <childnode refid="165" relation="include">
+        </childnode>
+        <childnode refid="166" relation="include">
+        </childnode>
+        <childnode refid="167" relation="include">
+        </childnode>
+        <childnode refid="168" relation="include">
+        </childnode>
+      </node>
+      <node id="91">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/functional</label>
+      </node>
+      <node id="48">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/xtr1common</label>
+      </node>
+      <node id="98">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/algorithm</label>
+      </node>
+      <node id="63">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/typeinfo</label>
+      </node>
+      <node id="73">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/new</label>
+      </node>
+      <node id="67">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/stdint.h</label>
+      </node>
+      <node id="56">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/cstdio</label>
+      </node>
+      <node id="75">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/xatomic.h</label>
+      </node>
+      <node id="37">
+        <label>memory</label>
+      </node>
+      <node id="117">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/xlocale</label>
+      </node>
+      <node id="87">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/string</label>
+      </node>
+      <node id="122">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/include/xlocmon</label>
+      </node>
+      <node id="161">
+        <label>C:/Users/mourad/source/repos/GloomZ/GloomZ/vendor/spdlog/include/spdlog/details/fmt_helper.h</label>
+      </node>
+    </incdepgraph>
+    <innernamespace refid="namespace_gloom_z">GloomZ</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_log_8h" kindref="compound">Log.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">GloomZ<sp/>{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/>std::shared_ptr&lt;spdlog::logger&gt;<sp/><ref refid="class_gloom_z_1_1_log_1a8214830ded6f06ec5509d5a547f93722" kindref="member">Log::s_CoreLogger</ref>;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>std::shared_ptr&lt;spdlog::logger&gt;<sp/><ref refid="class_gloom_z_1_1_log_1a535d995f848accd929687784dd7330c2" kindref="member">Log::s_ClientLogger</ref>;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9" refid="class_gloom_z_1_1_log_1ae5c1b467c43db0a3699f9c2a988efae8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_gloom_z_1_1_log_1ae5c1b467c43db0a3699f9c2a988efae8" kindref="member">Log::Init</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>spdlog::set_pattern(</highlight><highlight class="stringliteral">&quot;%^[%T]<sp/>%n:<sp/>%v%$&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_gloom_z_1_1_log_1a8214830ded6f06ec5509d5a547f93722" kindref="member">s_CoreLogger</ref><sp/>=<sp/>spdlog::stdout_color_mt(</highlight><highlight class="stringliteral">&quot;GLOOMZ:<sp/>&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_gloom_z_1_1_log_1a8214830ded6f06ec5509d5a547f93722" kindref="member">s_CoreLogger</ref>-&gt;set_level(spdlog::level::trace);</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_gloom_z_1_1_log_1a535d995f848accd929687784dd7330c2" kindref="member">s_ClientLogger</ref><sp/>=<sp/>spdlog::stdout_color_mt(</highlight><highlight class="stringliteral">&quot;APP<sp/><sp/><sp/>:<sp/>&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_gloom_z_1_1_log_1a535d995f848accd929687784dd7330c2" kindref="member">s_ClientLogger</ref>-&gt;set_level(spdlog::level::trace);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="18"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/mourad/source/repos/GloomZ/GloomZ/src/GloomZ/Log.cpp"/>
+  </compounddef>
+</doxygen>

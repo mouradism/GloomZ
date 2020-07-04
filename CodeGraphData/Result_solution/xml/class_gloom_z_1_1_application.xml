@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_gloom_z_1_1_application" kind="class" prot="public">
+    <compoundname>GloomZ::Application</compoundname>
+    <derivedcompoundref refid="class_sandbox" prot="public" virt="non-virtual">Sandbox</derivedcompoundref>
+    <includes refid="_application_8h" local="no">Application.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_gloom_z_1_1_application_1a4c3df9cf725203ff00732a909a1f68ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>GloomZ::Application::Application</definition>
+        <argsstring>()</argsstring>
+        <name>Application</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/mourad/source/repos/GloomZ/GloomZ/src/GloomZ/Application.h" line="8" column="1" bodyfile="C:/Users/mourad/source/repos/GloomZ/GloomZ/src/GloomZ/Application.cpp" bodystart="9" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="function" id="class_gloom_z_1_1_application_1af074d573c1c16d1028fd33a1c733049a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>GloomZ::Application::~Application</definition>
+        <argsstring>()</argsstring>
+        <name>~Application</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/mourad/source/repos/GloomZ/GloomZ/src/GloomZ/Application.h" line="9" column="1" bodyfile="C:/Users/mourad/source/repos/GloomZ/GloomZ/src/GloomZ/Application.cpp" bodystart="5" bodyend="7"/>
+      </memberdef>
+      <memberdef kind="function" id="class_gloom_z_1_1_application_1a979ee89c397d02503b9fc7efc9712e87" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void GloomZ::Application::Run</definition>
+        <argsstring>()</argsstring>
+        <name>Run</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/mourad/source/repos/GloomZ/GloomZ/src/GloomZ/Application.h" line="11" column="1" bodyfile="C:/Users/mourad/source/repos/GloomZ/GloomZ/src/GloomZ/Application.cpp" bodystart="13" bodyend="23"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="0">
+        <label>GloomZ::Application</label>
+        <link refid="class_gloom_z_1_1_application"/>
+      </node>
+      <node id="1">
+        <label>Sandbox</label>
+        <link refid="class_sandbox"/>
+        <childnode refid="0" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="C:/Users/mourad/source/repos/GloomZ/GloomZ/src/GloomZ/Application.h" line="6" column="1" bodyfile="C:/Users/mourad/source/repos/GloomZ/GloomZ/src/GloomZ/Application.h" bodystart="6" bodyend="12"/>
+    <listofallmembers>
+      <member refid="class_gloom_z_1_1_application_1a4c3df9cf725203ff00732a909a1f68ad" prot="public" virt="non-virtual"><scope>GloomZ::Application</scope><name>Application</name></member>
+      <member refid="class_gloom_z_1_1_application_1a979ee89c397d02503b9fc7efc9712e87" prot="public" virt="non-virtual"><scope>GloomZ::Application</scope><name>Run</name></member>
+      <member refid="class_gloom_z_1_1_application_1af074d573c1c16d1028fd33a1c733049a" prot="public" virt="virtual"><scope>GloomZ::Application</scope><name>~Application</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
