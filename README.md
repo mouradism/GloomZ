@@ -1,4 +1,5 @@
 # GloomZ
+<img width="982" height="514" alt="image" src="https://github.com/user-attachments/assets/d209174e-afb2-44a5-9dce-cac10511eb9e" />
 
 GloomZ is an early-stage game/graphics engine for Windows, written in C++17. It provides a reusable engine library (DLL) and a sandbox application that demonstrates how to build on top of the engine. The project is built with [Premake5](https://premake.github.io/) and targets Visual Studio 2019.
 
